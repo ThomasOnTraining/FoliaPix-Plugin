@@ -1,0 +1,13 @@
+# Configuração do FoliaPix
+
+# Porta para o servidor HTTP local (onde o backend notifica pagamentos)
+http:
+  port: 8081
+
+# Configurações de Segurança
+security:
+  api_key: "troque-isso-por-uma-chave-segura"
+
+# Configurações do Backend (API Externa)
+backend:
+  url: "https://seu-backend-aqui.com"

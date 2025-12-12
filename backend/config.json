@@ -1,0 +1,5 @@
+{
+    "port": 3000,
+    "api_key": "troque-isso-por-uma-chave-segura",
+    "mercadopago_access_token": "SEU_ACCESS_TOKEN_DO_MERCADO_PAGO_AQUI"
+}

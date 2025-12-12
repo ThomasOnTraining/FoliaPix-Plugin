@@ -1,0 +1,11 @@
+name: FoliaPix
+main: com.foliapix.FoliaPix
+version: 1.0
+api-version: 1.21
+commands:
+  anunciar:
+    description: Anunciar item com preço
+  loja:
+    description: Abrir loja
+  registrar:
+    description: Registrar CPF para vender
