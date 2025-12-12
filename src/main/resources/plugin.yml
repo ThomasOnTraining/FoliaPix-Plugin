@@ -1,9 +1,0 @@
-name: FoliaPix
-main: com.foliapix.FoliaPix
-version: 1.0
-api-version: 1.20
-commands:
-  anunciar:
-    description: Anunciar item com preço
-  loja:
-    description: Abrir loja
