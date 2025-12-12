@@ -1,5 +1,7 @@
 package com.foliapix.data;
 
+public class AuctionItem {
+
     private int id;
     private String vendedor;
     private String item;
