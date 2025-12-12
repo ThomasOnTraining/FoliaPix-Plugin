@@ -1,6 +1,8 @@
 package com.foliapix.commands;
 
+import org.bukkit.inventory.ItemStack;
 import com.foliapix.http.HttpClientUtil;
+import com.google.gson.JsonObject;
 import org.bukkit.Material;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
@@ -24,8 +26,7 @@ public class AnunciarCommand implements CommandExecutor {
             return true;
         }
 
-        Material item = p.getInventory().getItemInMainHand().getType();
-        ItemStack item = p.getInventory().getItemInMainHand(); // Changed to ItemStack
+        ItemStack item = p.getInventory().getItemInMainHand();
         if (item.getType() == Material.AIR) { // Check type on ItemStack
             p.sendMessage("§cSegure um item para anunciar.");
             return true;
